@@ -1,22 +1,5 @@
 {
 	"always_show_minimap_viewport": true,
-	"binary_file_patterns":
-	[
-		"*.dds",
-		"*.eot",
-		"*.gif",
-		"*.ico",
-		"*.jar",
-		"*.jpeg",
-		"*.jpg",
-		"*.pdf",
-		"*.png",
-		"*.swf",
-		"*.tga",
-		"*.ttf",
-		"*.zip",
-		"node_modules/**"
-	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Material Augmented Reaction (SL).tmTheme",
 	"font_face": "Roboto",
@@ -41,5 +24,8 @@
 	"material_theme_small_tab": true,
 	"overlay_scroll_bars": "enabled",
 	"theme": "Material Augmented Reaction.sublime-theme",
-	"word_wrap": "false"
+	"word_wrap": "false",
+  	"folder_exclude_patterns": ["node_modules", ".svn", ".git", ".hg", "CVS"],
+  	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
+  	"binary_file_patterns": ["generated/*", "*.tbz2", "*.gzip", "*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
 }
