@@ -1,8 +1,45 @@
 {
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"node_modules/**"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Material Augmented Reaction (SL).tmTheme",
+	"font_face": "Roboto",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Boxy Monokai.sublime-theme"
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"theme": "Material Augmented Reaction.sublime-theme",
+	"word_wrap": "false"
 }
